@@ -1,0 +1,82 @@
+/* Element Selector - styles all <body> elements */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* ID Selector - styles element with id="main-header" */
+#main-header {
+    color: #2c3e50;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 30px;
+}
+
+/* Class Selector - styles elements with class="content-section" */
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styling the image */
+.styled-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+    border: 5px solid #3498db;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-caption {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Footer styling */
+.page-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+/* Additional typography */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: #2980b9;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
